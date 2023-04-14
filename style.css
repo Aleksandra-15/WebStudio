@@ -1,0 +1,119 @@
+.header_logo1 {
+  color: #000000;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+.header_logo1 span {
+  color: #2196f3;
+}
+.header_link {
+  list-style-type: none;
+}
+.header_link a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+.header_link a:hover {
+  color: #2196f3;
+}
+.header_contakts1 {
+  list-style-type: none;
+}
+.header_contakts1 a {
+  text-decoration: none;
+  color: #757575;
+}
+.header_contakts1 a:hover {
+  color: #2196f3;
+}
+.promo {
+  background: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+.promo h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.promo_inform {
+  color: #ffffff;
+}
+.promo_btn {
+    background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+text-align: center;
+letter-spacing: 0.06em;
+  width: 216px;
+  height: 50px;
+  
+color: #FFFFFF;
+}
+.feature_item {
+  list-style-type: none;
+}
+.feature_items {
+  text-decoration: none;
+  color: #212121;
+}
+.text {
+  color: #757575;
+}
+.abouts {
+  color: #212121;
+}
+.about_img {
+  list-style-type: none;
+}
+.abouts {
+  color: #212121;
+}
+.team_img {
+  list-style-type: none;
+}
+.text2 {
+  color: #757575;
+}
+.clasa1 {
+  background: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.footer_links {
+  list-style-type: none;
+}
+.footer_link {
+  color: #ffffff;
+}
+.footer_link a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer_link {
+  color: #ffffff;
+}
