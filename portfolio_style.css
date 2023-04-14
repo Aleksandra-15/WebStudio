@@ -1,0 +1,18 @@
+.header_logo1 span{
+  color: #2196F3;
+}
+.information_items{
+  position: absolute;
+width: 575px;
+height: 54px;
+left: 512px;
+top: 174px;
+}
+.information_item li{
+  color: #212121;
+  background: #2196F3;
+/* shadow-middle */
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
