@@ -111,6 +111,15 @@
 .footer_link a {
   color: rgba(255, 255, 255, 0.6);
 }
-.footer_links a{
+.footer_links a {
   text-decoration: none;
+}
+.header_link {
+  display: inline-block;
+  width: 400px;
+  padding: 50px 20px;
+  background-color: green;
+  margin: 50px;
+  border: 5px dashed blue;
+  box-sizing: border-box;
 }
