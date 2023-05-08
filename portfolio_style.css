@@ -76,6 +76,9 @@
   border-radius: 4px;
 }
 .btn {
+  border: none;
+  width: 73px;
+  height: 38px;
   background: #f5f4fa;
   border-radius: 4px;
 }
@@ -86,10 +89,11 @@
   margin: 102px 208px;
 }
 .sit_imgs {
-  margin-top: 21px;
   display: flex;
   justify-content: space-around;
-  margin: 0 0 100px 0;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .clasa2 {
   background: #2f303a;
