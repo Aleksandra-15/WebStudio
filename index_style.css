@@ -128,6 +128,7 @@
 }
 .team_img {
   list-style-type: none;
+  text-decoration: none;
 }
 .team_iimg {
   background: #ffffff;
