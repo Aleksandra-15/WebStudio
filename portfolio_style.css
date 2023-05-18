@@ -95,6 +95,12 @@
   flex-wrap: wrap;
   align-items: center;
 }
+.sit_img {
+  margin-bottom: 130px;
+  width: 420px;
+  width: 370px;
+  box-shadow: -5px 5px 20px 5px rgba(0, 0, 0, 0.5);
+}
 .clasa2 {
   background: #2f303a;
   padding: 60px 0;

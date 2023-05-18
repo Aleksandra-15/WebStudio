@@ -27,9 +27,11 @@
 .header_contakts1 a:hover {
   color: #2196f3;
 }
-.promo {
-  background: #2f303a;
-  height: 600px;
+.header_contakt::before {
+  background: url(/img/envelope\.png);
+}
+.header_contakt3::before {
+  background: url(/img/smartphone.png);
 }
 .promo h1 {
   font-family: "Roboto";
@@ -58,10 +60,16 @@
   /* identical to box height, or 188% */
   text-align: center;
   letter-spacing: 0.06em;
-  width: 216px;
   height: 50px;
-
+  border: 0ch;
+  padding: 5px 20px;
+  width: 216px;
   color: #ffffff;
+}
+.bloc {
+  background: url(/img/shapca.png) center/cover no-repeat;
+
+  padding: 200px 0;
 }
 .feature_item h3 {
   font-family: "Roboto";
@@ -83,6 +91,26 @@
   margin-top: 10px;
   letter-spacing: 0.03em;
 }
+.feature_item1::before {
+  content: url(/img/anten.png);
+  width: 270px;
+  height: 120px;
+}
+.feature_item2::before {
+  content: url(/img/clock.png);
+  width: 270px;
+  height: 120px;
+}
+.feature_item3::before {
+  content: url(/img/grafic.png);
+  width: 270px;
+  height: 120px;
+}
+.feature_item4::before {
+  content: url(/img/cosmonavt.png);
+  width: 270px;
+  height: 120px;
+}
 .feature_item {
   list-style-type: none;
 }
@@ -100,6 +128,13 @@
 }
 .team_img {
   list-style-type: none;
+}
+.team_iimg {
+  background: #ffffff;
+  width: 270px;
+  height: 410px;
+  margin-top: 10px;
+  text-align: center;
 }
 .text2 {
   color: #757575;
@@ -121,14 +156,12 @@
   padding: 10px 10px;
 }
 .promo_inform {
-  padding: 50px 0 50px 0;
-  width: 700px;
-  margin: 50px auto;
+  text-align: center;
 }
 .promo_btn {
-  padding: 20px 10px;
-  margin: 50px 692px 200px 692px;
   border-radius: 5px;
+  display: block;
+  margin: 0 auto;
 }
 .feature_item {
   display: inline-block;
