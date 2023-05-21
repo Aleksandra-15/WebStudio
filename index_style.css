@@ -126,6 +126,11 @@
 .abouts {
   color: #212121;
 }
+.about_img-item {
+  margin-bottom: 120px;
+
+  box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.5);
+}
 .team_img {
   list-style-type: none;
   text-decoration: none;
@@ -136,6 +141,11 @@
   height: 410px;
   margin-top: 10px;
   text-align: center;
+}
+.team_iimg {
+  margin-bottom: 130px;
+  width: 420px;
+  box-shadow: -5px 5px 20px 5px rgba(0, 0, 0, 0.5);
 }
 .text2 {
   color: #757575;
