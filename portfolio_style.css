@@ -67,7 +67,9 @@
   justify-content: space-between;
 }
 .information_items {
-  margin: 12px 312px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 .btn:hover {
   background: #2196f3;
