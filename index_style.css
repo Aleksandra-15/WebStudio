@@ -107,23 +107,19 @@
   margin-top: 10px;
   letter-spacing: 0.03em;
 }
-.feature_item1::before {
-  content: url(/img/anten.png);
+.feature_item1 {
   width: 270px;
   height: 120px;
 }
-.feature_item2::before {
-  content: url(/img/clock.png);
+.feature_item2 {
   width: 270px;
   height: 120px;
 }
-.feature_item3::before {
-  content: url(/img/grafic.png);
+.feature_item3 {
   width: 270px;
   height: 120px;
 }
-.feature_item4::before {
-  content: url(/img/cosmonavt.png);
+.feature_item4 {
   width: 270px;
   height: 120px;
 }
@@ -194,6 +190,7 @@
   display: block;
   margin: 0 auto;
 }
+
 .feature_item {
   display: inline-block;
   width: 270px;
