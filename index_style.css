@@ -27,6 +27,7 @@
 .header_contakts1 a:hover {
   color: #2196f3;
 }
+
 .header_contakt::before {
   background: url(/img/envelope\.png);
 }
@@ -48,7 +49,16 @@
 .promo_inform {
   color: #ffffff;
 }
+.promo {
+  animation: fadeInUp 2s 1s;
+}
+.promo_btn:hover {
+  animation: tada;
+}
+
 .promo_btn {
+  animation: pulse 2s 3s infinite;
+
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -153,11 +163,12 @@
   height: 410px;
   margin-top: 10px;
   text-align: center;
+  animation: fadeInLeft 4s;
 }
 .team_iimg {
   margin-bottom: 130px;
   width: 420px;
-  box-shadow: -5px 5px 20px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: -5px 5px 5px -5px rgba(0, 0, 0, 0.5);
 }
 .img {
   object-fit: cover;
