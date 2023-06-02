@@ -145,6 +145,11 @@
 .about_img {
   list-style-type: none;
 }
+.about_img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 .abouts {
   color: #212121;
 }
@@ -152,6 +157,21 @@
   margin-bottom: 120px;
 
   box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.5);
+}
+.cirkle {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  justify-content: center;
+}
+
+a,
+a:hover path {
+  fill: #2196f3;
+  color: #2196f3;
 }
 .team_img {
   list-style-type: none;
@@ -166,12 +186,12 @@
   animation: fadeInLeft 4s;
 }
 .team_iimg {
-  margin-bottom: 130px;
-  width: 420px;
+  width: 270px;
   box-shadow: -5px 5px 5px -5px rgba(0, 0, 0, 0.5);
 }
 .img {
   object-fit: cover;
+  width: 100%;
 }
 
 .text2 {
@@ -339,7 +359,4 @@ nav ul {
 }
 .whin {
   color: #ffffff;
-}
-.waw:hover {
-  color: ;
 }
