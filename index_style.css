@@ -29,11 +29,9 @@
 }
 
 .header_contakt::before {
-  background: url(/img/envelope\.png);
+  background: url(/icons/envelope\.svg);
 }
-.header_contakt3::before {
-  background: url(/img/smartphone.png);
-}
+
 .promo h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -167,11 +165,14 @@
   border-radius: 100%;
   justify-content: center;
 }
-
+.team_iimg ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
 a,
 a:hover path {
   fill: #2196f3;
-  color: #2196f3;
 }
 .team_img {
   list-style-type: none;
@@ -201,7 +202,40 @@ a:hover path {
   padding: 60px 0;
   background: #2f303a;
 }
+.our_team h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 
+  color: #212121;
+}
+.our_team ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.our_team a,
+.our_team a:hover path {
+  fill: #2196f3;
+}
+.our_team li {
+  background: #757575;
+  width: 226px;
+  height: 92px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  justify-content: center;
+  animation: rotateIn 2s;
+}
+.our_team li:hover {
+  transform: scale(1.1);
+}
 .footer_link a {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -234,6 +268,10 @@ a:hover path {
 }
 .container {
   width: 1140px;
+  margin: 0 auto;
+}
+.our_team {
+  width: 1170px;
   margin: 0 auto;
 }
 .header-block {
