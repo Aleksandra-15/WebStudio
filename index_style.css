@@ -202,7 +202,7 @@ a:hover path {
   padding: 60px 0;
   background: #2f303a;
 }
-.our_team h2 {
+.clients h2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -212,29 +212,6 @@ a:hover path {
   letter-spacing: 0.03em;
 
   color: #212121;
-}
-.our_team ul {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-.our_team a,
-.our_team a:hover path {
-  fill: #2196f3;
-}
-.our_team li {
-  background: #757575;
-  width: 226px;
-  height: 92px;
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  border-radius: 100%;
-  justify-content: center;
-  animation: rotateIn 2s;
-}
-.our_team li:hover {
-  transform: scale(1.1);
 }
 .footer_link a {
   color: rgba(255, 255, 255, 0.6);
@@ -457,4 +434,28 @@ a:hover path {
 }
 .ins:hover {
   transform: scale(1.1);
+}
+.clasa1 .container {
+  display: flex;
+  gap: 90px;
+}
+.clients a {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+a:hover {
+  border-color: #2196f3;
+}
+.clients ul {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.clients {
+  padding: 94px 0;
 }
