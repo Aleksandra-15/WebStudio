@@ -1,3 +1,9 @@
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
 .header_logo span {
   color: #2196f3;
 }
@@ -75,13 +81,10 @@
   color: #ffffff;
 }
 .promo_btn {
-  display: flex;
-  justify-content: center;
   width: 216px;
   height: 50px;
   flex-shrink: 0;
-  margin-left: 10px;
-  margin-right: 10px;
+  transition: 0.5s;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 
@@ -117,7 +120,6 @@
 }
 .feature_item1 {
   width: 270px;
-  height: 120px;
 }
 .feature_item2 {
   width: 270px;
@@ -153,7 +155,9 @@
 }
 .about_img-item {
   margin-bottom: 120px;
-
+  object-fit: cover;
+  width: 370px;
+  height: 294px;
   box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.5);
 }
 .cirkle {
@@ -165,7 +169,21 @@
   border-radius: 100%;
   justify-content: center;
 }
+.team_iimg h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
 .team_iimg ul {
+  padding: 16px;
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -181,8 +199,8 @@ a:hover path {
 .team_iimg {
   background: #ffffff;
   width: 270px;
-  height: 410px;
-  margin-top: 10px;
+  height: 428px;
+
   text-align: center;
   animation: fadeInLeft 4s;
 }
@@ -196,6 +214,16 @@ a:hover path {
 }
 
 .text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 10px 0;
   color: #757575;
 }
 .clasa1 {
@@ -221,7 +249,7 @@ a:hover path {
 }
 .header_logo {
   display: inline-block;
-  width: 20px;
+
   padding: 10px 10px;
 }
 .promo_inform {
@@ -256,12 +284,7 @@ a:hover path {
   justify-content: space-between;
   align-items: center;
 }
-.header_link {
-  width: 280px;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-}
+
 .header_logo {
   color: black;
   text-decoration: none;
@@ -273,9 +296,8 @@ a:hover path {
 
 .header-block {
   display: flex;
-  justify-content: space-between;
+  gap: 90px;
   align-items: center;
-  width: 520px;
 }
 .container-left {
   display: flex;
@@ -284,9 +306,8 @@ a:hover path {
   margin: auto;
 }
 .header_contakts1 {
-  width: 300px;
+  gap: 30px;
   display: flex;
-  justify-content: space-between;
 }
 .header {
   display: block;
@@ -458,4 +479,17 @@ a:hover {
 }
 .clients {
   padding: 94px 0;
+}
+.sohcial li {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 100%;
+}
+li:hover,
+a:hover path {
+  fill: #2196f3;
 }

@@ -7,7 +7,7 @@
 }
 .header_logo {
   display: inline-block;
-  width: 20px;
+
   padding: 10px 10px;
 }
 .header_logos {
@@ -47,9 +47,8 @@
 }
 .heder-bloks {
   display: flex;
-  justify-content: space-between;
+  gap: 90px;
   align-items: center;
-  width: 1120px;
 }
 .header_contakts2 {
   list-style-type: none;
@@ -70,9 +69,8 @@ a:hover path {
   background: url(/icons/envelope\.svg);
 }
 .header_contakts2 {
-  width: 300px;
+  gap: 30px;
   display: flex;
-  justify-content: space-between;
 }
 .information_items {
   display: flex;
