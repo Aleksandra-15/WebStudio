@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto";
+  font-style: normal;
+}
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -22,8 +26,6 @@
   list-style-type: none;
 }
 .header_link2 a {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -167,6 +169,7 @@ a:hover path {
   margin-bottom: 30px;
   transition-timing-function: linear;
   width: 370px;
+  transition: 1s;
   box-sizing: border-box;
   box-shadow: -5px 5px 20px 5px rgba(0, 0, 0, 0.5);
 }
@@ -182,8 +185,6 @@ a:hover path {
   color: #ffffff;
 }
 .links a {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -229,8 +230,6 @@ a:hover path {
   width: 1800px;
 }
 .join_in h6 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -264,8 +263,6 @@ a:hover path {
   color: #2196f3;
 }
 .inset h6 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
