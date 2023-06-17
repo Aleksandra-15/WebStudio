@@ -1,314 +1,41 @@
 @import "./blocks/header.css";
 @import "./blocks/promo.css";
+@import "./blocks/feature.css";
+@import "./blocks/about.css";
+@import "./blocks/team.css";
+@import "./blocks/inset.css";
+@import "./blocks/join.css";
+@import "./blocks/clients.css";
+@import "./blocks/clasa1.css";
+@import "./blocks/footer.css";
 body {
   font-family: "Roboto";
   font-style: normal;
-}
-
-.feature_item h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-  margin-top: 30px;
-}
-.text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-  margin-top: 10px;
-  letter-spacing: 0.03em;
-}
-.feature_item {
-  width: 270px;
-}
-.feature_rectangle {
-  background: #f5f4fa;
-  border-radius: 4px;
-  width: 100%;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.feature_item {
-  list-style-type: none;
-}
-.text {
-  color: #757575;
-}
-.abouts {
-  color: #212121;
-}
-.about_img {
-  list-style-type: none;
-}
-.about_img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-.abouts {
-  color: #212121;
-}
-.about_img-item {
-  margin-bottom: 120px;
-  object-fit: cover;
-  width: 370px;
-  height: 294px;
-  box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.5);
-}
-
-.team_iimg h3 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-top: 30px;
-  color: #212121;
-}
-.team_iimg ul {
-  padding: 0;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-a,
-a:hover path {
-  fill: #2196f3;
-}
-.team_img {
-  list-style-type: none;
-  text-decoration: none;
-}
-.team_iimg {
-  background: #ffffff;
-  width: 270px;
-  padding-bottom: 30px;
-  text-align: center;
-  animation: fadeInLeft 4s;
-}
-.team_iimg {
-  border-radius: 10px;
-  width: 270px;
-  box-shadow: -5px 5px 5px -5px rgba(0, 0, 0, 0.5);
-}
-.img {
-  object-fit: cover;
-  width: 100%;
-}
-
-.text2 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-  padding: 10px 0;
-  color: #757575;
-}
-.clasa1 {
-  padding: 60px 0;
-  background: #2f303a;
-}
-.clients h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.footer_link a {
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer_links a {
-  text-decoration: none;
-}
-.header_logo {
-  display: inline-block;
-
-  padding: 10px 10px;
-}
-
-.feature_item {
-  display: inline-block;
-  width: 270px;
-}
-.abouts {
-  text-align: center;
-}
-.teams {
-  text-align: center;
 }
 .container {
   width: 1140px;
   margin: 0 auto;
 }
-.our_team {
-  width: 1170px;
-  margin: 0 auto;
-}
-
 .container-left {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto;
 }
-
-nav {
-  display: block;
-}
-nav ul {
-  width: 280px;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-}
-
-.feature_items {
-  display: flex;
-  text-decoration: none;
-  color: #212121;
-  justify-content: space-between;
-}
-.feature {
-  padding: 95px 0;
-}
-.about {
-  width: 1170px;
-  margin: 0 auto;
-}
-.abouts {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin: 0 0 50px 0;
-}
-.about_img {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 0 100px 0;
-}
-.team {
-  background-color: #f5f4fa;
-  padding: 94px 0;
-  margin: 0;
-}
-.teams {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin: 0 0 50px 0;
-}
-.team_img {
-  width: 1170px;
-  margin: 0 auto 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .whin {
   color: #ffffff;
-}
-.join_in h6 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #ffffff;
-}
-.join_in ul {
-  margin-top: 15px;
-  margin: 0 auto;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
 }
 a:hover,
 a:hover path {
   fill: #2196f3;
   color: #2196f3;
 }
-.inset h6 {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: #ffffff;
-}
-.ins {
-  color: #ffffff;
-  text-align: center;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  width: 200px;
-  transition: 1s;
-  height: 50px;
-  border: 0px;
-}
 .ins:hover {
   transform: scale(1.1);
 }
-.clasa1 .container {
-  display: flex;
-  gap: 90px;
-}
-.clients a {
-  margin-top: 3px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-a:hover {
-  border-color: #2196f3;
-}
-.clients ul {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-}
-.clients {
-  padding: 94px 0;
-}
-.sohcial a {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  width: 44px;
-  height: 44px;
-
-  border-radius: 100%;
+a,
+a:hover path {
+  fill: #ffffff;
 }
 li:hover,
 a:hover path {
@@ -316,21 +43,4 @@ a:hover path {
 }
 .sohcial a:hover {
   background-color: #2196f3;
-}
-.clients a:hover path {
-  fill: #2196f3;
-}
-.sohcial2 a {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  width: 44px;
-  height: 44px;
-  margin-top: 20px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-}
-
-.sohcial2 a:hover {
-  background: #2196f3;
 }

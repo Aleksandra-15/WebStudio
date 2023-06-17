@@ -1,0 +1,76 @@
+.header_logos span {
+  color: #2196f3;
+}
+.header_logo {
+  display: inline-block;
+  padding: 10px 10px;
+}
+.header_logos {
+  color: black;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.header_link2 {
+  list-style-type: none;
+}
+.header_link2 a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+.header_link2 a:hover {
+  color: #2196f3;
+}
+.header_links1 {
+  width: 280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.header_wraper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heder-bloks {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+.header_contakts2 {
+  list-style-type: none;
+}
+.header_contakts2 a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.header_contakts2 a:hover {
+  color: #2196f3;
+}
+a:hover,
+a:hover path {
+  fill: #2196f3;
+  color: #2196f3;
+}
+.header_contakt::before {
+  background: url(/icons/envelope\.svg);
+}
+.header_contakts2 {
+  gap: 30px;
+  display: flex;
+}
+.header_logo2 span {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #2196f3;
+}
