@@ -1030,24 +1030,57 @@
         <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
         <form clasa="form-modal">
           <label for="name">Ім'я</label>
-          <input clasa="input-person" type="name" required />
+          <div class="form-modal-div">
+            <i class="fa-solid fa-user"></i>
+
+            <input
+              class="input"
+              type="name"
+              required
+              minlength="3"
+              maxlength="10"
+              min="1"
+              max="10" />
+          </div>
           <label for="tel">Телефон</label>
-          <input clasa="input-tel" type="tel" required />
+          <div class="form-modal-div">
+            <i class="fa-solid fa-phone"></i>
+
+            <input
+              class="input"
+              type="tel"
+              required
+              minlength="3"
+              maxlength="10"
+              min="1"
+              max="10" />
+          </div>
           <label for="email">Пошта</label>
-          <input clasa="input-email" type="email" required />
+          <div class="form-modal-div">
+            <i class="fa-solid fa-envelope"></i>
+
+            <input
+              class="input"
+              type="email"
+              required
+              minlength="3"
+              maxlength="10"
+              min="1"
+              max="10" />
+          </div>
           <label for="kom">Коментар</label>
           <textarea
             name="masseng"
             cols="30"
             rows="10"
             placeholder="Введіть текст"></textarea>
-       <div class="form-check">
-        <input class="check-form" type="checkbox" /> 
-        <p class="form-text">
-          Погоджуюся з розсилкою та приймаю
-          <a class="form-link" href="#"> Умови договору</a>
-        </p>
-       </div>
+          <div class="form-check">
+            <input class="check-form" type="checkbox" />
+            <p class="form-text">
+              Погоджуюся з розсилкою та приймаю
+              <a class="form-link" href="#"> Умови договору</a>
+            </p>
+          </div>
           <button class="btn-modal-form">Відправити</button>
         </form>
       </div>
