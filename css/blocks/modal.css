@@ -147,14 +147,15 @@ form {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 11px 0 11px 12px;
+  transition: 0.3;
 }
 .form-modal-div input {
   border: none;
   outline: none;
 }
-.form-modal-div:placeholder-shown {
+.form-modal-div:hover {
   border: 1px solid #188ce8;
 }
-.form-modal-div::placeholder {
+.form-modal-div:hover i {
   color: #188ce8;
 }
