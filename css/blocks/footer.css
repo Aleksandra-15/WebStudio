@@ -8,7 +8,6 @@
   padding: 10px 10px;
 }
 .header_contakts2 {
-  width: 300px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -16,7 +15,6 @@
 
 .header_contakts2 {
   list-style-type: none;
-  margin-top: 15px;
 }
 .header_contakts2 a {
   text-decoration: none;
@@ -28,7 +26,7 @@
 }
 .clasa1 .container {
   display: flex;
-  gap: 90px;
+  gap: 60px;
 }
 .join_in h6 {
   font-weight: 700;
@@ -80,6 +78,27 @@
   border-radius: 4px;
   width: 200px;
   transition: 1s;
-  height: 50px;
+  height: 55px;
   border: 0px;
+}
+.inset-form {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+}
+.inset-input {
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 358px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.48px;
 }

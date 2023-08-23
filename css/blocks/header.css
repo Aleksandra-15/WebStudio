@@ -10,6 +10,7 @@ header {
 }
 .header_link {
   list-style-type: none;
+  position: relative;
 }
 .header_link a {
   font-weight: 500;
@@ -68,7 +69,7 @@ header {
   gap: 30px;
   display: flex;
 }
-.header>ul{
+.header > ul {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -106,11 +107,13 @@ nav ul {
   display: flex;
   justify-content: space-around;
 }
-.header_link:hover{
-  border-bottom: 4px solid #2196f3;
-  background: #2196F3;
+.header_link:hover::after {
+  content: "";
+  background: #2196f3;
   height: 4px;
- display: flex;
- align-items:end;
- gap: 30px;
+  display: block;
+
+  width: 100%;
+  position: absolute;
+  bottom: -27px;
 }

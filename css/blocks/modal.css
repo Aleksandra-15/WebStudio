@@ -92,7 +92,7 @@ textarea {
 form {
   display: flex;
   align-items: flex-start;
-  padding: 25px;
+ 
   flex-direction: column;
 }
 .check-form {
