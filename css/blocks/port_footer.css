@@ -25,11 +25,9 @@
   letter-spacing: 0.03em;
 }
 .address a {
-  list-style-type: none;
   margin-top: 15px;
 }
 .address a {
-  text-decoration: none;
   margin-top: 10px;
   color: #757575;
 }
@@ -52,9 +50,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
-.join_in li {
-  list-style-type: none;
 }
 .join_in ul {
   margin: 0 auto;

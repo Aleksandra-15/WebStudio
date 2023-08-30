@@ -1,0 +1,59 @@
+@import"./components/about";
+@import"./components/clients";
+@import"./components/feature";
+@import"./components/footer";
+@import"./components/_header";
+@import"./components/_modal";
+@import"./components/_modal";
+@import"./components/_port_footer";
+@import"./components/_port_header";
+@import"./components/_promo";
+@import"./components/_sit";
+@import"./components/_team";
+@import"./components/information";
+a{
+    text-decoration: none;
+  }
+  li{
+    list-style-type: none;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Roboto";
+    font-style: normal;
+  }
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .container-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .whin {
+    color: #ffffff;
+  }
+  a:hover,
+  a:hover path {
+    fill: #2196f3;
+    color: #2196f3;
+  }
+  .ins:hover {
+    transform: scale(1.1);
+  }
+  a,
+  a:hover path {
+    fill: #ffffff;
+  }
+  li:hover,
+  a:hover path {
+    fill: #ffffff;
+  }
+  .sohcial a:hover {
+    background-color: #2196f3;
+  }

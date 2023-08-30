@@ -13,3 +13,9 @@ body {
 .main-portfolio{
   padding-top: 70px;
 }
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}

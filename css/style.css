@@ -9,6 +9,12 @@
 @import "./blocks/clasa1.css";
 @import "./blocks/footer.css";
 @import "./blocks/modal.css";
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
 html{
   scroll-behavior: smooth;
 }

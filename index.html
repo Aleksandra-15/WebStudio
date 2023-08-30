@@ -11,7 +11,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="stylesheet" href="./style.min.css" type="text/css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
@@ -25,9 +25,11 @@
       <div class="container">
         <div class="header_wraper">
           <div class="header-block">
-            <h2 class="header_logo"><span>Web</span>Studio</h2>
+            <h2 class="header_logo">
+              <span class="header_logo_span">Web</span>Studio
+            </h2>
             <nav>
-              <ul class="header_links1">
+              <ul class="header_links">
                 <li class="header_link"><a href="/">Студія</a></li>
                 <li class="header_link">
                   <a href="./portfolio.html">Портфоліо</a>
@@ -78,7 +80,7 @@
                     fill="#2196F3" />
                 </svg>
               </div>
-              <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+              <h3 class="feature_item_text">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
@@ -113,7 +115,7 @@
                   </defs>
                 </svg>
               </div>
-              <h3>ПУНКТУАЛЬНІСТЬ</h3>
+              <h3 class="feature_item_text">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
@@ -151,7 +153,7 @@
                   </defs>
                 </svg>
               </div>
-              <h3>ПЛАНУВАННЯ</h3>
+              <h3 class="feature_item_text">ПЛАНУВАННЯ</h3>
               <p class="text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
@@ -229,7 +231,7 @@
                     fill="#212121" />
                 </svg>
               </div>
-              <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <h3 class="feature_item_text">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
@@ -239,25 +241,27 @@
         </div>
       </section>
       <section class="about">
-        <h2 class="abouts">Чим ми займаємось</h2>
-        <ul class="about_img">
-          <li
-            class="about_img-item wow animate__animated animate__zoomInDown animate__faster">
-            <img src="./icons/computer.png" alt="computer" />
-            <p>Десктопні додатки</p>
-          </li>
+        <div class="container">
+          <h2 class="about-titel">Чим ми займаємось</h2>
+          <ul class="about_img">
+            <li
+              class="about_img-item wow animate__animated animate__zoomInDown animate__faster">
+              <img src="./icons/computer.png" alt="computer" />
+              <p>Десктопні додатки</p>
+            </li>
 
-          <li
-            class="about_img-item wow animate__animated animate__zoomInDown animate__faster">
-            <img src="./img/telephone.svg" alt="telephone" />
-            <p>Мобільні додатки</p>
-          </li>
-          <li
-            class="about_img-item wow animate__animated animate__zoomInDown animate__faster">
-            <img src="./img/tablet.svg" alt="tablet" />
-            <p>Дизайнерські рішення</p>
-          </li>
-        </ul>
+            <li
+              class="about_img-item wow animate__animated animate__zoomInDown animate__faster">
+              <img src="./img/telephone.svg" alt="telephone" />
+              <p>Мобільні додатки</p>
+            </li>
+            <li
+              class="about_img-item wow animate__animated animate__zoomInDown animate__faster">
+              <img src="./img/tablet.svg" alt="tablet" />
+              <p>Дизайнерські рішення</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="team">
         <h2 class="teams">Наша команда</h2>
@@ -904,23 +908,29 @@
         </div>
       </section>
     </main>
-    <footer class="clasa1">
+    <footer class="footer-index">
       <div class="container">
         <address class="header_contakts2">
           <h2 class="header_logo whin"><span>Web</span>Studio</h2>
 
           <a
+            class="header_contakts_link"
             href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17"
-            >м. Київ, пр-т Лесі  Українки, 26</a
+            >м. Київ, пр-т Лесі Українки, 26</a
           >
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="header_contakts_link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="header_contakts_link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </address>
         <div class="join_in">
-          <h6>приєднуйтесь</h6>
-          <ul class="sohcials2">
-            <li class="sohcial2">
+          <h6 class="join_in_subtitel">приєднуйтесь</h6>
+          <ul class="footer-soshial-lists">
+            <li class="footer-soshial-list">
               <a
+                class="footer-soshial-link"
                 href="https://www.google.com/search?q=instagram+&sxsrf=APwXEddoizmT6laRhaCHOmMm55Sv-m8L7g%3A1686578861061&ei=rSaHZO-nA5G1rgS7w6zgBA&ved=0ahUKEwivspjv873_AhWRmosKHbshC0wQ4dUDCA8&uact=5&oq=instagram+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQigUQJzIHCCMQigUQJzIKCAAQgAQQFBCHAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMggIABCABBDLATIICAAQgAQQywFKBAhBGABQAFgAYLwGaABwAXgAgAF6iAF6kgEDMC4xmAEAoAEBwAEB&sclient=gws-wiz-serp"
                 ><svg
                   width="20"
@@ -946,8 +956,8 @@
                   </defs></svg
               ></a>
             </li>
-            <li class="sohcial2">
-              <a href="#"
+            <li class="footer-soshial-list">
+              <a class="footer-soshial-link" href="#"
                 ><svg
                   width="20"
                   height="18"
@@ -960,8 +970,8 @@
                 </svg>
               </a>
             </li>
-            <li class="sohcial2">
-              <a href="#"
+            <li class="footer-soshial-list">
+              <a class="footer-soshial-link" href="#"
                 ><svg
                   width="11"
                   height="20"
@@ -974,8 +984,8 @@
                 </svg>
               </a>
             </li>
-            <li class="sohcial2">
-              <a href="#"
+            <li class="footer-soshial-list">
+              <a class="footer-soshial-link" href="#"
                 ><svg
                   width="20"
                   height="20"
@@ -1003,10 +1013,10 @@
           </ul>
         </div>
         <div class="inset">
-          <h6>Підпишіться на розсилку</h6>
+          <h6 class="inset-titel">Підпишіться на розсилку</h6>
           <form action="" class="inset-form">
-            <input type="email" class="inset-input" placeholder="E-mail"  />
-            <button class="ins">
+            <input type="email" class="inset-input" placeholder="E-mail" />
+            <button class="ins-btn">
               Підписатися
               <svg
                 width="20"
@@ -1032,12 +1042,12 @@
         </button>
         <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
         <form clasa="form-modal">
-          <label for="name">Ім'я</label>
+          <label class="modal-label" for="name">Ім'я</label>
           <div class="form-modal-div">
             <i class="fa-solid fa-user"></i>
 
             <input
-              class="input"
+              class="modal-input"
               type="name"
               required
               minlength="3"
@@ -1045,12 +1055,12 @@
               min="1"
               max="10" />
           </div>
-          <label for="tel">Телефон</label>
+          <label class="modal-label" for="tel">Телефон</label>
           <div class="form-modal-div">
             <i class="fa-solid fa-phone"></i>
 
             <input
-              class="input"
+              class="modal-input"
               type="tel"
               required
               minlength="3"
@@ -1058,12 +1068,12 @@
               min="1"
               max="10" />
           </div>
-          <label for="email">Пошта</label>
+          <label class="modal-label" for="email">Пошта</label>
           <div class="form-modal-div">
             <i class="fa-solid fa-envelope"></i>
 
             <input
-              class="input"
+              class="modal-input"
               type="email"
               required
               minlength="3"
@@ -1071,8 +1081,9 @@
               min="1"
               max="10" />
           </div>
-          <label for="kom">Коментар</label>
+          <label class="modal-label" for="kom">Коментар</label>
           <textarea
+            class="modal-textareal"
             name="masseng"
             cols="30"
             rows="10"

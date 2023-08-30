@@ -1,0 +1,115 @@
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    &_logo_span {
+      color: #2196f3;
+    }
+    &_link {
+      position: relative;
+    }
+    &_link a {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+    
+      color: #212121;
+    }
+   &_link a:hover {
+      color: #2196f3;
+    }
+    
+    &_contakts a {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+    
+      color: #757575;
+    }
+  &_contakts a:hover {
+      color: #2196f3;
+    }
+    
+   &_logo {
+      display: inline-block;
+    
+      padding: 10px 10px;
+    }
+    &-block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    &_logo {
+      color: black;
+    
+      font-family: "Raleway", sans-serif;
+      font-size: 26px;
+      line-height: 31px;
+      letter-spacing: 0.03em;
+    }
+    
+    &-block {
+      display: flex;
+      gap: 90px;
+      align-items: center;
+    }
+    &_contakts1 {
+      gap: 30px;
+      display: flex;
+    }
+    & > ul {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+    & {
+      background-color: #ffffff;
+      position: fixed;
+      top: 0;
+      z-index: 100;
+      opacity: 0.73;
+      width: 100%;
+    }
+    /* .header{
+    position: fixed;
+    display: flex;
+    align-items:center;
+    background-color: #ffffff;
+    opacity: 0.33;
+    width: 100%;
+    top: 0;
+    
+    } */
+    &_wraper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav {
+      display: block;
+    }
+    nav ul {
+      width: 280px;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+    }
+   &_link:hover::after {
+      content: "";
+      background: #2196f3;
+      height: 4px;
+      display: block;
+    
+      width: 100%;
+      position: absolute;
+      bottom: -27px;
+    }
+  }
+  
+ 
+  

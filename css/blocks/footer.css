@@ -13,11 +13,7 @@
   flex-direction: column;
 }
 
-.header_contakts2 {
-  list-style-type: none;
-}
 .header_contakts2 a {
-  text-decoration: none;
   margin-top: 10px;
   color: #757575;
 }

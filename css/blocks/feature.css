@@ -18,9 +18,7 @@
   justify-content: center;
   align-items: center;
 }
-.feature_item {
-  list-style-type: none;
-}
+
 .text {
   color: #757575;
 }
@@ -39,7 +37,7 @@
 }
 .feature_items {
   display: flex;
-  text-decoration: none;
+
   color: #212121;
   justify-content: space-between;
 }

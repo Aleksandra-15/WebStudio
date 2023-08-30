@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  list-style-type: none;
+
   gap: 80px;
 }
 .information_items:hover li {

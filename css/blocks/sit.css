@@ -1,6 +1,3 @@
-.sit_imgs {
-  list-style-type: none;
-}
 .sit {
   display: flex;
   margin: 0 auto;
@@ -65,10 +62,9 @@ font-weight: 400;
 letter-spacing: 0.54px;
 
 } */
- .sit_img:hover .sit_overlay{
+.sit_img:hover .sit_overlay {
   opacity: 1;
 }
- 
 
 .sit_overlay {
   transition: 0.5s all;
@@ -90,10 +86,9 @@ letter-spacing: 0.54px;
 }
 
 .sit_img {
-
   width: 500px;
   height: 500px;
- position: relative;
+  position: relative;
   border-radius: 10px;
 }
 .sit_img img {
