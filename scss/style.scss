@@ -2,15 +2,16 @@
 @import"./components/clients";
 @import"./components/feature";
 @import"./components/footer";
-@import"./components/_header";
-@import"./components/_modal";
-@import"./components/_modal";
-@import"./components/_port_footer";
-@import"./components/_port_header";
-@import"./components/_promo";
-@import"./components/_sit";
-@import"./components/_team";
+@import"./components/header";
+@import"./components/modal";
+@import"./components/modal";
+@import"./components/port_footer";
+@import"./components/port_header";
+@import"./components/promo";
+@import"./components/sit";
+@import"./components/team";
 @import"./components/information";
+
 a{
     text-decoration: none;
   }

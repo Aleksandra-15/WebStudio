@@ -1,12 +1,4 @@
-
-  .promo {
-    background: url(../../img/shapca.png) center/cover no-repeat;
-    padding: 200px 0;
-    margin-top: 70px;
-    .promo {
-      animation: fadeInUp 2s 1s;
-  }
-&-inform {
+.promo h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -16,15 +8,17 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-&_inform {
+.promo_inform {
   color: #ffffff;
 }
-
-&_btn:hover {
+.promo {
+  animation: fadeInUp 2s 1s;
+}
+.promo_btn:hover {
   animation: tada;
 }
 
-&_btn {
+.promo_btn {
   animation: pulse 2s 3s infinite;
 
   background: #2196f3;
@@ -43,7 +37,7 @@
   width: 216px;
   color: #ffffff;
 }
-&_btn {
+.promo_btn {
   width: 216px;
   height: 50px;
   flex-shrink: 0;
@@ -53,18 +47,20 @@
 
   transition-property: transform;
 }
-&_btn:hover {
+.promo_btn:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
-
-&_inform {
+.promo {
+  background: url(../../img/shapca.png) center/cover no-repeat;
+  padding: 200px 0;
+  margin-top: 70px;
+}
+.promo_inform {
   text-align: center;
 }
-&_btn {
+.promo_btn {
   border-radius: 5px;
   display: block;
   margin: 0 auto;
-}
-
 }
