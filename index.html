@@ -23,28 +23,32 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="header_wraper">
-          <div class="header-block">
-            <h2 class="header_logo">
-              <span class="header_logo_span">Web</span>Studio
+        <div class="header__wraper">
+          <div class="header__block">
+            <h2 class="header__logo">
+              <span class="header__logo_span">Web</span>Studio
             </h2>
             <nav>
-              <ul class="header_links">
-                <li class="header_link"><a href="/">Студія</a></li>
-                <li class="header_link">
-                  <a href="./portfolio.html">Портфоліо</a>
+              <ul class="header__lists">
+                <li class="header__list">
+                  <a class="header__link" href="/">Студія</a>
                 </li>
-                <li class="header_link"><a href="/">Контакти</a></li>
+                <li class="header__list">
+                  <a class="header__link" href="./portfolio.html">Портфоліо</a>
+                </li>
+                <li class="header__link">
+                  <a class="header__link" href="/">Контакти</a>
+                </li>
               </ul>
             </nav>
           </div>
-          <div class="header_contakts1">
-            <a href="mailto:info@devstudio.com">
+          <div class="header__contakts">
+            <a class="header__contakt_link" href="mailto:info@devstudio.com">
               <i class="fa-regular fa-envelope fa-bounce"></i>
 
               info@devstudio.com</a
             >
-            <a href="tel:+380961111111">
+            <a class="header__contakt_link" href="tel:+380961111111">
               <i class="fa-solid fa-mobile fa-shake"></i> +38 096 111 11 11</a
             >
           </div>
@@ -53,19 +57,19 @@
     </header>
     <main>
       <section class="promo">
-        <div class="promo_overlay">
-          <h1 class="promo_inform">
+        <div class="promo__overlay">
+          <h1 class="promo__inform">
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button class="promo_btn">Замовити послугу</button>
+          <button class="promo__btn">Замовити послугу</button>
         </div>
       </section>
       <section class="feature">
         <div class="container">
-          <ul class="feature_items">
-            <li class="feature_item">
-              <div class="feature_rectangle">
+          <ul class="feature__items">
+            <li class="feature___item">
+              <div class="feature___block">
                 <svg
                   width="70"
                   height="70"
@@ -86,8 +90,8 @@
                 формування позиції.
               </p>
             </li>
-            <li class="feature_item">
-              <div class="feature_rectangle">
+            <li class="feature__item">
+              <div class="feature__block">
                 <svg
                   width="70"
                   height="70"
@@ -115,14 +119,14 @@
                   </defs>
                 </svg>
               </div>
-              <h3 class="feature_item_text">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="text">
+              <h3 class="feature__desc">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="feature__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="feature_item">
-              <div class="feature_rectangle">
+            <li class="feature__item">
+              <div class="feature__block">
                 <svg
                   width="70"
                   height="70"
@@ -153,13 +157,13 @@
                   </defs>
                 </svg>
               </div>
-              <h3 class="feature_item_text">ПЛАНУВАННЯ</h3>
-              <p class="text">
+              <h3 class="feature__desc">ПЛАНУВАННЯ</h3>
+              <p class="feature__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="feature_item">
-              <div class="feature_rectangle">
+            <li class="feature__item">
+              <div class="feature__block">
                 <svg
                   width="70"
                   height="70"
@@ -231,8 +235,8 @@
                     fill="#212121" />
                 </svg>
               </div>
-              <h3 class="feature_item_text">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="text">
+              <h3 class="feature__desc">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="feature__text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -242,37 +246,43 @@
       </section>
       <section class="about">
         <div class="container">
-          <h2 class="about-titel">Чим ми займаємось</h2>
-          <ul class="about_img">
+          <h2 class="web__titel">Чим ми займаємось</h2>
+          <ul class="about__item">
             <li
-              class="about_img-item wow animate__animated animate__zoomInDown animate__faster">
-              <img src="./icons/computer.png" alt="computer" />
-              <p>Десктопні додатки</p>
+              class="about__img-item wow animate__animated animate__zoomInDown animate__faster">
+              <img
+                class="about__img"
+                src="./icons/computer.png"
+                alt="computer" />
+              <p class="about__desc">Десктопні додатки</p>
             </li>
 
             <li
-              class="about_img-item wow animate__animated animate__zoomInDown animate__faster">
-              <img src="./img/telephone.svg" alt="telephone" />
-              <p>Мобільні додатки</p>
+              class="about__img-item wow animate__animated animate__zoomInDown animate__faster">
+              <img
+                class="about__img"
+                src="./img/telephone.svg"
+                alt="telephone" />
+              <p class="about__desc">Мобільні додатки</p>
             </li>
             <li
-              class="about_img-item wow animate__animated animate__zoomInDown animate__faster">
-              <img src="./img/tablet.svg" alt="tablet" />
-              <p>Дизайнерські рішення</p>
+              class="about__img-item wow animate__animated animate__zoomInDown animate__faster">
+              <img class="about__img" src="./img/tablet.svg" alt="tablet" />
+              <p class="about__desc">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
       </section>
       <section class="team">
-        <h2 class="teams">Наша команда</h2>
+        <h2 class="web__titel">Наша команда</h2>
         <div class="container">
-          <div class="scane">
-            <ul class="team_img">
+          <div class="team__block">
+            <ul class="team__items">
               <li
-                class="team_iimg wow animate__animated animate__backInLeft animat__faster">
-                <img class="img" src="./img/ігор.png" alt="Ігор" />
-                <h3>Ігор Дем’яненко</h3>
-                <p class="text2">Product Designer</p>
+                class="team__item wow animate__animated animate__backInLeft animat__faster">
+                <img class="team__img" src="./img/ігор.png" alt="Ігор" />
+                <h3 class="team__item__titel">Ігор Дем’яненко</h3>
+                <p class="team__text">Product Designer</p>
                 <ul class="sohcial">
                   <li>
                     <a href="#"
@@ -361,10 +371,10 @@
                 </ul>
               </li>
               <li
-                class="team_iimg wow animate__animated animate__backInLeft animat__faster">
-                <img class="img" src="./img/оля.png" alt="Оля" />
-                <h3>Ольга Репіна</h3>
-                <p class="text2">Frontend Developer</p>
+                class="team__item wow animate__animated animate__backInLeft animat__faster">
+                <img class="team__img" src="./img/оля.png" alt="Оля" />
+                <h3 class="team__item__titel">Ольга Репіна</h3>
+                <p class="team__text">Frontend Developer</p>
                 <ul class="sohcial">
                   <li>
                     <a href="#"
@@ -453,10 +463,10 @@
                 </ul>
               </li>
               <li
-                class="team_iimg wow animate__animated animate__backInLeft animat__faster">
-                <img class="img" src="./img/коля.png" alt="Коля" />
-                <h3>Микола Тарасов</h3>
-                <p class="text2">Marketing</p>
+                class="team__item wow animate__animated animate__backInLeft animat__faster">
+                <img class="team__img" src="./img/коля.png" alt="Коля" />
+                <h3 class="team__item__titel">Микола Тарасов</h3>
+                <p class="team__text">Marketing</p>
                 <ul class="sohcial">
                   <li>
                     <a href="#"
@@ -545,10 +555,10 @@
                 </ul>
               </li>
               <li
-                class="team_iimg wow animate__animated animate__backInLeft animat__faster">
-                <img class="img" src="./img/міша.png" alt="Міша" />
-                <h3>Михайло Єрмаков</h3>
-                <p class="text2">UI Designer</p>
+                class="team__item wow animate__animated animate__backInLeft animat__faster">
+                <img class="team__img" src="./img/міша.png" alt="Міша" />
+                <h3 class="team__item__titel">Михайло Єрмаков</h3>
+                <p class="team__text">UI Designer</p>
                 <ul class="sohcial">
                   <li>
                     <a href="#"
@@ -642,10 +652,10 @@
       </section>
       <section class="clients">
         <div class="continer">
-          <h2>Постійні клієнти</h2>
-          <ul>
-            <li class="our wow">
-              <a href="#"
+          <h2 class="web__titel">Постійні клієнти</h2>
+          <ul class="clients__lists">
+            <li class="clients__list wow">
+              <a class="clients__link" href="#"
                 ><svg
                   width="41"
                   height="47"
@@ -659,8 +669,8 @@
                     fill="#AFB1B8" /></svg
               ></a>
             </li>
-            <li>
-              <a href="#"
+            <li class="clients__list wow">
+              <a class="clients__link" href="#"
                 ><svg
                   width="40"
                   height="52"
@@ -728,8 +738,8 @@
                     fill="#AFB1B8" /></svg
               ></a>
             </li>
-            <li>
-              <a href="#"
+            <li class="clients__list wow">
+              <a class="clients__link" href="#"
                 ><svg
                   width="45"
                   height="42"
@@ -777,8 +787,8 @@
                     fill="#AFB1B8" /></svg
               ></a>
             </li>
-            <li>
-              <a href="#"
+            <li class="clients__list wow">
+              <a class="clients__link" href="#"
                 ><svg
                   width="85"
                   height="42"
@@ -800,8 +810,8 @@
                 </svg>
               </a>
             </li>
-            <li>
-              <a href="#"
+            <li class="clients__list wow">
+              <a class="clients__link" href="#"
                 ><svg
                   width="94"
                   height="45"
@@ -864,8 +874,8 @@
                     fill="#AFB1B8" /></svg
               ></a>
             </li>
-            <li>
-              <a href="#"
+            <li class="clients__list wow">
+              <a class="clients__link" href="#"
                 ><svg
                   width="63"
                   height="47"
@@ -908,29 +918,31 @@
         </div>
       </section>
     </main>
-    <footer class="footer-index">
-      <div class="container">
-        <address class="header_contakts2">
-          <h2 class="header_logo whin"><span>Web</span>Studio</h2>
+    <footer class="footer">
+      <div class="conteiner">
+        <address class="footer__contakts">
+          <h2 class="footer__logo whin">
+            <span class="footer__span">Web</span>Studio
+          </h2>
 
           <a
-            class="header_contakts_link"
+            class="footer__contakts_link"
             href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17"
             >м. Київ, пр-т Лесі Українки, 26</a
           >
-          <a class="header_contakts_link" href="mailto:info@devstudio.com"
+          <a class="footer__contakts_link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
-          <a class="header_contakts_link" href="tel:+380961111111"
+          <a class="footer__contakts_link" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
         </address>
         <div class="join_in">
-          <h6 class="join_in_subtitel">приєднуйтесь</h6>
-          <ul class="footer-soshial-lists">
-            <li class="footer-soshial-list">
+          <h6 class="join_in__subtitel">приєднуйтесь</h6>
+          <ul class="footer__soshial-lists">
+            <li class="footer__soshial-list">
               <a
-                class="footer-soshial-link"
+                class="footer__soshial-link"
                 href="https://www.google.com/search?q=instagram+&sxsrf=APwXEddoizmT6laRhaCHOmMm55Sv-m8L7g%3A1686578861061&ei=rSaHZO-nA5G1rgS7w6zgBA&ved=0ahUKEwivspjv873_AhWRmosKHbshC0wQ4dUDCA8&uact=5&oq=instagram+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQigUQJzIHCCMQigUQJzIKCAAQgAQQFBCHAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMggIABCABBDLATIICAAQgAQQywFKBAhBGABQAFgAYLwGaABwAXgAgAF6iAF6kgEDMC4xmAEAoAEBwAEB&sclient=gws-wiz-serp"
                 ><svg
                   width="20"
@@ -956,8 +968,8 @@
                   </defs></svg
               ></a>
             </li>
-            <li class="footer-soshial-list">
-              <a class="footer-soshial-link" href="#"
+            <li class="footer__soshial-list">
+              <a class="footer__soshial-link" href="#"
                 ><svg
                   width="20"
                   height="18"
@@ -970,8 +982,8 @@
                 </svg>
               </a>
             </li>
-            <li class="footer-soshial-list">
-              <a class="footer-soshial-link" href="#"
+            <li class="footer__soshial-list">
+              <a class="footer__soshial-link" href="#"
                 ><svg
                   width="11"
                   height="20"
@@ -984,8 +996,8 @@
                 </svg>
               </a>
             </li>
-            <li class="footer-soshial-list">
-              <a class="footer-soshial-link" href="#"
+            <li class="footer__soshial-list">
+              <a class="footer__soshial-link" href="#"
                 ><svg
                   width="20"
                   height="20"
@@ -1013,10 +1025,10 @@
           </ul>
         </div>
         <div class="inset">
-          <h6 class="inset-titel">Підпишіться на розсилку</h6>
-          <form action="" class="inset-form">
-            <input type="email" class="inset-input" placeholder="E-mail" />
-            <button class="ins-btn">
+          <h6 class="inset__titel">Підпишіться на розсилку</h6>
+          <form class="inset__form">
+            <input type="email" class="inset__input" placeholder="E-mail" />
+            <button class="inset__btn">
               Підписатися
               <svg
                 width="20"
@@ -1035,19 +1047,19 @@
     </footer>
     <div class="overlay">
       <div class="modal">
-        <button class="close_modal">
-          <div class="modal_close">
-            <span>&times;</span>
+        <button class="close__modal">
+          <div class="modal__close">
+            <span class="modal__span">&times;</span>
           </div>
         </button>
-        <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
-        <form clasa="form-modal">
-          <label class="modal-label" for="name">Ім'я</label>
-          <div class="form-modal-div">
+        <h3 class="modal__title">Залиште свої дані, ми вам передзвонимо</h3>
+        <form clasa="modal__form">
+          <label class="modal__label" for="name">Ім'я</label>
+          <div class="modal__form-div">
             <i class="fa-solid fa-user"></i>
 
             <input
-              class="modal-input"
+              class="modal__input"
               type="name"
               required
               minlength="3"
@@ -1055,12 +1067,12 @@
               min="1"
               max="10" />
           </div>
-          <label class="modal-label" for="tel">Телефон</label>
-          <div class="form-modal-div">
+          <label class="modal__label" for="tel">Телефон</label>
+          <div class="modal__form-div">
             <i class="fa-solid fa-phone"></i>
 
             <input
-              class="modal-input"
+              class="modal__input"
               type="tel"
               required
               minlength="3"
@@ -1068,12 +1080,12 @@
               min="1"
               max="10" />
           </div>
-          <label class="modal-label" for="email">Пошта</label>
-          <div class="form-modal-div">
+          <label class="modal__label" for="email">Пошта</label>
+          <div class="modal__form-div">
             <i class="fa-solid fa-envelope"></i>
 
             <input
-              class="modal-input"
+              class="modal__input"
               type="email"
               required
               minlength="3"
@@ -1081,21 +1093,21 @@
               min="1"
               max="10" />
           </div>
-          <label class="modal-label" for="kom">Коментар</label>
+          <label class="modal__label" for="kom">Коментар</label>
           <textarea
-            class="modal-textareal"
+            class="modal__textareal"
             name="masseng"
             cols="30"
             rows="10"
             placeholder="Введіть текст"></textarea>
-          <div class="form-check">
-            <input class="check-form" type="checkbox" />
-            <p class="form-text">
+          <div class="form__check">
+            <input class="form__check_input" type="checkbox" />
+            <p class="form__text">
               Погоджуюся з розсилкою та приймаю
-              <a class="form-link" href="#"> Умови договору</a>
+              <a class="form__link" href="#"> Умови договору</a>
             </p>
           </div>
-          <button class="btn-modal-form">Відправити</button>
+          <button class="modal__btn-form">Відправити</button>
         </form>
       </div>
     </div>
